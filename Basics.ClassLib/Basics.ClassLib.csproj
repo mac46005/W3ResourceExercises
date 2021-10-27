@@ -10,4 +10,16 @@
     <Folder Include="Views\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Reference Include="ConsoleMVCPattern">
+      <HintPath>..\..\Net5ClassLibrary\ConsoleMVCPattern\bin\Debug\net5.0\ConsoleMVCPattern.dll</HintPath>
+    </Reference>
+    <Reference Include="DataAccess">
+      <HintPath>..\..\Net5ClassLibrary\DataAccess\bin\Debug\net5.0\DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="MathScience.ClassLib">
+      <HintPath>..\..\Net5ClassLibrary\MathScience.ClassLib\bin\Debug\net5.0\MathScience.ClassLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
 </Project>

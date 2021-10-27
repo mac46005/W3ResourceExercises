@@ -6,9 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="Views\" />
+    <ProjectReference Include="..\Basics.ClassLib\Basics.ClassLib.csproj" />
   </ItemGroup>
 
 </Project>
