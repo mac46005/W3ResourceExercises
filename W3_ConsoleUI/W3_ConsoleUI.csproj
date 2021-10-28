@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,7 +6,33 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Basics.ClassLib\Basics.ClassLib.csproj" />
+    <Reference Include="ConsoleMVCPattern">
+      <HintPath>..\..\DllCollection\ConsoleMVCPattern.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapper">
+      <HintPath>..\..\DllCollection\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="DataAccess">
+      <HintPath>..\..\DllCollection\DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="DBAccess.ClassLib">
+      <HintPath>..\..\DllCollection\DBAccess.ClassLib.dll</HintPath>
+    </Reference>
+    <Reference Include="DesignPatterns.ClassLib">
+      <HintPath>..\..\DllCollection\DesignPatterns.ClassLib.dll</HintPath>
+    </Reference>
+    <Reference Include="MathScience.ClassLib">
+      <HintPath>..\..\DllCollection\MathScience.ClassLib.dll</HintPath>
+    </Reference>
+    <Reference Include="People.ClassLib">
+      <HintPath>..\..\DllCollection\People.ClassLib.dll</HintPath>
+    </Reference>
+    <Reference Include="PeopleInformation.ClassLib">
+      <HintPath>..\..\DllCollection\PeopleInformation.ClassLib.dll</HintPath>
+    </Reference>
+    <Reference Include="TestingConsoleUI">
+      <HintPath>..\..\DllCollection\TestingConsoleUI.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
